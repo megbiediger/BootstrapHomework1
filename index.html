@@ -18,6 +18,26 @@
                 padding-top: 50px;
                 padding-bottom: 20px;
             }
+
+            h1 {
+              text-align: center; /*centered heading*/
+                                  /*centered all icons*/
+            }
+
+            h3{
+              text-align: center; /*centered step headings*/
+            }
+            .title {
+              color: #7a00cc; /*changed the color of the title to purple*/
+            }
+
+            .icons {
+              color: #662200; /*changed the color of the icons to brown*/
+            }
+
+            .steps {
+              border-top: solid; black; /*Added a line to separate icon from text*/
+            }
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -29,7 +49,9 @@
 
           <div class="jumbotron">
         <div class="container">
+          <div class="title">
             <h1>How a bill becomes a law</h1>
+          </div>
 
 <div class="row">
       <div class="col-md-2 col-sm-6 col-xs-12 col-lg-push-1">
@@ -38,8 +60,10 @@
             <h3 class="panel-title">Step 1</h3> <!-- Changed h1s to h3s -->
           </div>
           <div class="panel-body">
-            <h1><i class="fa fa-file-text-o" aria-hidden="true"></i></h1> <!-- Changed size and location of icons -->
+            <div class="icons"><h1><i class="fa fa-file-text-o" aria-hidden="true"></i></h1></div> <!-- Changed size and location of icons -->
+            <div class="steps">
             Bill is introduced in the House of Representatives or Senate.
+            </div>
           </div>
         </div>
       </div>
@@ -50,8 +74,10 @@
             <h3 class="panel-title">Step 2</h3>
           </div>
           <div class="panel-body">
-            <h1><i class="fa fa-users" aria-hidden="true"></i></h1>
+            <div class="icons"><h1><i class="fa fa-users" aria-hidden="true"></i></h1></div>
+            <div class="steps">
             Bill goes to a committee, where it may be amended.
+          </div>
           </div>
           </div>
       </div>
@@ -62,8 +88,10 @@
               <h3 class="panel-title">Step 3</h3>
             </div>
             <div class="panel-body">
-              <h1><i class="fa fa-calendar-check-o" aria-hidden="true"></i></h1>
+              <div class="icons"><h1><i class="fa fa-calendar-check-o" aria-hidden="true"></i></h1></div>
+              <div class="steps">
               Bill passes out of committee and is scheduled for floor debate.
+            </div>
             </div>
             </div>
       </div>
@@ -74,8 +102,10 @@
                 <h3 class="panel-title">Step 4</h3>
               </div>
               <div class="panel-body">
-                <h1><i class="fa fa-gavel" aria-hidden="true"></i></h1>
+                <div class="icons"><h1><i class="fa fa-gavel" aria-hidden="true"></i></h1></div>
+                <div class="steps">
                 Bill goes to the House or Senate floor, where it may be amended. If passed, it continues to the Governor.
+              </div>
               </div>
               </div>
       </div>
@@ -86,8 +116,10 @@
                   <h3 class="panel-title">Step 5</h3>
                 </div>
                 <div class="panel-body">
-                  <h1><i class="fa fa-pencil-square-o" aria-hidden="true"></i></h1>
+                  <div class="icons"><h1><i class="fa fa-pencil-square-o" aria-hidden="true"></i></h1></div>
+                  <div class="steps">
                   Once the House and Senate have agreed on the bill's language, the governor signs it into law or vetoes it.
+                  </div>
                 </div>
                 </div>
       </div>
